@@ -7,4 +7,4 @@ INFO:
 
 Database is stored in database/database.json
 
-To clear database change its contents to `[]` (without ` )
+To clear database change its contents to `[]`
