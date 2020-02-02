@@ -15,3 +15,7 @@ How to use:
 2) Submit Data to store it in DB
 3) Search for data by keywords (partial keyword match)
 4) Click on search result and view Record (Типа довидка) 
+
+used:
+PHP7
+JS/jQuery HTML CSS
