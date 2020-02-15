@@ -48,11 +48,13 @@ class JsonDatabase
 	public function removeOne($searchKey, $searchValue)
 	{
 		foreach ($this->db as $index => $record) {
-			foreach ($record as $key => $value) {
-				if($key === $searchKey && $searchValue){
-					unset($this->db[$index]);
-				}
-			}
+			foreach ($record as $row){
+                foreach ($row as $key => $value) {
+                    if($key === $searchKey && $searchValue){
+                        unset($this->db[$index]);
+                    }
+                }
+            }
 		}
 		$this->updateDB();
 	}

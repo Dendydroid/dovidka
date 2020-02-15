@@ -8,12 +8,6 @@ require_once("../Path.php");
 
 require_once("../tools/JsonDatabase.php");
 
-// $jsonDatabase = new JsonDatabase(Path::class);
-
-// $jsonDatabase->removeOne("name", "Taras");
-
-// var_dump($jsonDatabase->getAll());
-
 ?>
 
 <!DOCTYPE html>

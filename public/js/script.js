@@ -32,7 +32,7 @@ function sendAdd()
 
 	if(sendData.length){
 		$.ajax({
-			url: '/../add_record.php',
+			url: '/../public/add_record.php',
 			type: 'POST',
 			dataType: 'html',
 			data: {
@@ -56,7 +56,7 @@ function search(query)
 {
 	if(query){
 		$.ajax({
-			url: '/../search.php',
+			url: '/../public/search.php',
 			type: 'POST',
 			dataType: 'html',
 			data: {
@@ -109,5 +109,5 @@ function search(query)
 }
 
 function viewEl(ind){
-	window.location="/view_record.php?id=" + ind;
+	window.location="/public/view_record.php?id=" + ind;
 }
