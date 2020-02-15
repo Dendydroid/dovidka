@@ -17,6 +17,7 @@ How to use:
 4) Click on search result and view Record (Типа довидка) 
 
 API METHODS:
+
 www.website.com/api/?method=add&data={"name":"Andy", "age":"18"}
 
 Adds a record to db
